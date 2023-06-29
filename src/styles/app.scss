@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import "./song";
+@import "./player";
+@import "./library";
+@import "./nav";
+
+h1,
+h2,
+h3,
+h4 {
+  color: rgb(60, 60, 60);
+}
+body,
+button {
+  font-family: "Fredoka", sans-serif;
+}
+
+.App {
+  transition: all 0.5s ease;
+}
+.app-transition {
+  margin-left: 30%;
+}
